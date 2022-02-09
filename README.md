@@ -7,7 +7,7 @@ Extracted the original code from:
 https://docs.wpilib.org/en/stable/docs/software/vision-processing/wpilibpi/basic-vision-example.html
 
 NOTE:
-There might be some caliberations, tests, researches and even noticeable changes to this file, following the wpilib.org link above is compulsive for those who want to start vision from scratch!
+There might be some caliberations, tests, researches and even noticeable changes to this file. Following the wpilib.org link above is compulsive for those who want to start vision from scratch!
 
 
 
