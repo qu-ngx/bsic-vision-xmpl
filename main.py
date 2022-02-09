@@ -20,7 +20,7 @@ def main():
    output_stream = CameraServer.putVideo('Processed', width, height)
 
    # Table for vision output information
-   vision_nt = NetworkTables.getTable('Vision') #NetworkTables
+   vision_nt = NetworkTables.getTable('Vision') #Network
 
    # Allocating new images is very expensive, always try to preallocate
    img = np.zeros(shape=(240, 320, 3), dtype=np.uint8)
