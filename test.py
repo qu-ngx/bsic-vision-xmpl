@@ -1,12 +1,29 @@
-# Import the camera server
-from cscore import CameraServer
+# # Import the camera server
+# from cscore import CameraServer
 
 # Import OpenCV and NumPy
-import cv2
+import cv2 as cv
 import numpy as np
+  
+cap = cv.VideoCapture(0)
+
+# Check if the webcam is opened correctly
+if not cap.isOpened():
+    raise IOError("Cannot open webcam")
+
+while True:
+    ret, frame = cap.read()
+    frame = cv.resize(frame, None, fx=0.5, fy=0.5, interpolation=cv.INTER_AREA)
+    cv.imshow('Input', frame)
+
+    c = cv.waitKey(1)
+    if c == 27:
+        break
+
+cap.release()
 
 def main():
-    cs = CameraServer.getInstance()
+    cs = frame.getInstance()
     cs.enableLogging()
 
     # Capture from the first USB Camera on the system
