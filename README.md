@@ -9,5 +9,8 @@ https://docs.wpilib.org/en/stable/docs/software/vision-processing/wpilibpi/basic
 NOTE:
 There might be some caliberations, tests, researches and even noticeable changes to this file. Following the wpilib.org link above is compulsive for those who want to start vision from scratch!
 
+<IMPORTANT NOTE>:
+THIS PROJECT FAILED AND DISCONTINUED! HEADING TOWARDS THE LINK FROM WPILIB ABOVE FOR REFERENCE AND AUTHENTIC USE FOR YOUR OWN CUSTOM VISION!
+
 
 
